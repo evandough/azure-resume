@@ -1,6 +1,6 @@
 # azure-resume
 This repo is my based on the [Cloud Resume Challenge - Azure](https://cloudresumechallenge.dev/docs/the-challenge/azure/). 
-This readme file will document the steps to complete the challenge. 
+This `README` file will document the steps to complete the challenge. 
 
 My own Azure resume
 1. clone repo
