@@ -11,7 +11,7 @@
         - 1. Needed to install the Azure Function extension in VSCode
         - 2. To create an Azure Function, I had to install .NET Core SDK 3.0.1
         - 3. Needed to install [Nuget package for Cosmos DB Extension v3.0.10](https://www.nuget.org/packages/Microsoft.Azure.WebJobs.Extensions.CosmosDB) in VSCode
-    - Created Azure Function using .NET 6.0 LTS
+    - Created Azure Function using .NET 6.0 LTS inside of VSCode in the `api/` folder
         - Ran into an issue running ```func host start ```, so I had to install Chocolately and run ```choco install azure-functions-core-tools``` in PowerShell as Administrator
         - Ran into another error whilst running ```func host start ```, from Shell I had to run `dotnet nuget add source --name nuget.org https://api.nuget.org/v3/index.json` - WHAT THIS DOES: adds a NuGet package source to ensur .NET projects can download packages from NuGet.org it it's not already configured
          - Ran ```func host start ``` in VSCode and BOOM - we can access the http get,post
